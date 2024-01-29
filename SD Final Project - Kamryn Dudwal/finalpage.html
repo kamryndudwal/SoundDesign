@@ -1,0 +1,46 @@
+<h1>Sound Design Project</h1>
+<h2>Umbrella Sound Design</h2>
+<hr>
+<h3>Record</h3>
+<audio controls></audio>
+<script src="recorder.js"></script>
+<h3>Wind Sounds</h3>
+<input type='range' id='Mid' min=100 max=1000 value=100 step='.01'>
+<p></p>
+<button type="button" value="play" id="Play">Start Wind</button>
+<button type="button" value="play" id="Stopwind">Stop Wind</button>
+<input type="button" value="record" id="StartWind">
+<input type="button" value="stop" id="StopWind">
+<script src="recorder.js"></script>
+<script src="wind.js"></script>
+<br><hr>
+<h3>Doorbell Sounds</h3>
+<input type='button' value='Strike' id='Strike'>
+<input type='button' value='StrikeTwo' id='StrikeTwo'>
+<input type="button" value="record" id="Start">
+<input type="button" value="stop" id="Stop">
+<script src="recorder.js"></script>
+<script src='testbells.js'></script>
+<br><hr>
+<h3>Car Sounds</h3>
+<button type="button" value="play" id="StartCarSound">Start All Car Sounds</button>
+<button id='Stopsound' >Stop Oscillator Sound</button>
+<button id='StopAll' >Stop Car Sounds</button>
+<input type="button" value="record" id="StartCar">
+<input type="button" value="stop" id="StopCar">
+<script src="recorder.js"></script>
+<script src='cartest.js'></script>
+<br><hr>
+<h3>Recorded Sounds</h3>
+<p>Mirror Squeak</p>
+<audio controls>
+    <source src="recording/mirror-recorded.wav" type="audio/wav">
+  </audio>
+<p>Umbrella</p>
+<audio controls>
+    <source src="recording/umbrella-recorded.wav" type="audio/wav">
+  </audio>
+<p>Rain</p>
+<audio controls>
+    <source src="recording/rain-recorded.wav" type="audio/wav">
+  </audio>
